@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: billing-app-back
-          image: billingapp-back:0.0.4       
+          image: billingapp-back:0.0.4      
           ports:
             - containerPort: 7080
               name: billingappbport
